@@ -44,7 +44,7 @@ function addTodo() {
         timestamp,
         false
     );
-    todos.push = todoObject;
+    todos.push(todoObject);
 
     document.dispatchEvent(new Event(RENDER_EVENT));
 }
